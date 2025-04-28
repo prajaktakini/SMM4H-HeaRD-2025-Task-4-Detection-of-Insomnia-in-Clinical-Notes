@@ -4,6 +4,8 @@ This repository contains my implementation for the SMM4H-HeaRD 2025 Shared Task 
 
 The goal of this task is to develop a multi-label classification system that automatically identifies insomnia based on clinical notes. The system predicts the satisfaction of predefined insomnia rules (Definition 1, Definition 2, Rule A, Rule B, and Rule C) using rule and transformer-based approaches.
 
+⸻
+
 ## Subtasks
 
 The task is divided into three subtasks:
@@ -13,7 +15,6 @@ Predict the satisfaction of two definitions and three rules for each clinical no
 Perform multi-label classification, jointly predicting the satisfaction of all five definitions/rules per clinical note.
 	•	Subtask 3:
 Predict an overall insomnia label (yes/no) for each clinical note by aggregating the individual definition/rule predictions according to specific aggregation rules provided by the organizers.
-
 
 ⸻
 
